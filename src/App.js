@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './sections/header';
+import Landing from './sections/landing';
+import TechStack from './sections/Tech Stack';
+import ProjectTraining from './sections/Project Training';
+import Content from './sections/content';
+import Footer from './sections/footer';
+import { Fragment } from 'react';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="immg">
+      <Header />
+      <Landing />
+      <TechStack />
+      <ProjectTraining />
+      <Content />
+      <Footer />
     </div>
   );
 }
