@@ -7,7 +7,7 @@ const Header = ()=>{
     return(
         <Fragment>
             <header id="Home">
-            <a href="main" className="logo">M I K
+            <a href="#main" className="logo">M I K
             </a>
             <nav className="none">
                 <a href="#services">Services</a>
